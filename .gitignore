@@ -1,0 +1,26 @@
+### ignore files
+# pybin
+*.pyc
+# log
+*.log
+# tmp files
+tmp*
+tmp_*
+*_tmp
+*.tmp
+*.tmp.*
+*_tmp_*
+
+
+### ignore dirs
+*.egg-info/*
+__pycache__/*
+.ipynb_checkpoints/*
+notebooks/*
+scripts/*
+datatools/ceph_datasets/agdb_null_test_downloads/*
+
+
+### reserve
+## null files
+# !*.null
